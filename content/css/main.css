@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+.nav_bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.nav_bar li {
+    display: inline-block;
+    padding: 5px;
+}
+.nav_bar a {
+    text-decoration: none;
+    color: blue;
+}
+.nav_bar a:hover {
+   color: black;
+}
+.website_content {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;  
+}
+.socials {
+    text-align: center;
+}
+.socials a {
+    text-decoration: none;
+    color: blue;
+    padding: 3px;
+}
+.socials a:hover {
+    color: black;
+}
+.about_me {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blogs {
+    list-style: none;
+}
+.blogs a {
+    text-decoration: none;
+    color: blue;
+}
+.blogs a:hover {
+    color: black;
+}
+.blog_paragraphs_small {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_paragraphs_large {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cyber_attack_list {
+    list-style:none;
+}
+.cyber_security {
+    width: 35%;
+    height: auto;
+    border: 5px solid black;
+}
+
+@media (max-width: 960px) {
+    .blog_paragraphs_large {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog_paragraphs_small {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
